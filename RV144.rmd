@@ -80,6 +80,7 @@ chisqtestGC(results, graph = TRUE)
 ```{r}
 fisher.test(results)
 ```
+Thw null hypothesis can be dismissed because it is less that 0.5. This means that the difference observed within the results of this test is significant enough to dismiss a sampling error. The Chi-squared statistic, because it is 3.9017, shows it follows the Chi-Squared distribution. 
 
 ## Conclusions
 
