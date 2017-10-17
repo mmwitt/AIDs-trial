@@ -1,7 +1,7 @@
 ---
 title: "RV144 Aids trials"
-author: "instr"
-date: "April 13, 2016"
+author: "McKayla Witt"
+date: "10/15/17"
 output: html_document
 ---
 
@@ -51,6 +51,11 @@ To test the efficticeness of the vaccine in comparison of the placebo, about 50%
 ```{r}
 barchartGC(results,type = "percent")
 ```
+The plot shows that about 50% of the subjects were administered a vaccine (as shown in blue), and the remaining subjects were administered a placebo (as shown in pink). The results of the test shows that of subjects given the vaccine, 40% contracted AIDs- in other words the vaccine shows a 60% effectiveness amongst test subjects. Of the subjects that were administered the placebo 60% contracted AIDs.
+
+```{r}
+geom_bar()
+```
 
 ### Numerical Results
 
@@ -60,7 +65,7 @@ barchartGC(results,type = "percent")
 colPerc(results)
 rowPerc(results)
 ```
-
+The results of the "colPerc" reveal that reletively all the subjects used in this test were AIDs free before the trials. This is key because it shows the data cannot be dismissed as initially corrupted or skewed in any direction. The numeric results of the "rowPerc" clarify that in reality, 40.80 percent of the subjects administered the vaccine contracted aids- which matches the results of the graphical data. It also shows that 59.20 percent of the people given the placebo contracted AIDs- again lining up with the previous graphical results.    
 
 
 
@@ -78,4 +83,3 @@ fisher.test(results)
 
 ## Conclusions
 
-<Summarise your results as to the effectiveness of the vaccine with explanations that could be understood by your mom>
