@@ -44,7 +44,7 @@ rownames(results) <- c("none","aids")
 
 
 ## Results
-<!-- You are to add descriptive comments to explain to the reader what the plot is showing !-->
+To test the efficticeness of the vaccine in comparison of the placebo, about 50% of a test group were given a placebo and about 50% were not. Of the Of the people who contracted aids 60% have been given a placebo, while 40% of them were given a vaccine. Meaning that while the vaccine worked, the difference was not excessive. The p-value, given by the t.test equals 0.04781, which means we reject the null hypothesis. 
 
 ### Graphical results
 <!--Display graphical evidence as to the effectiveness of the vaccine with explanations!-->
